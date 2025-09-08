@@ -3,6 +3,9 @@ package lab1;
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
+
+//this is a test for pull
+
 class FizzBuzz {
 
     public static void main(String[] args) {
