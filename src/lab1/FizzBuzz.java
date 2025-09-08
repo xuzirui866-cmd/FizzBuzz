@@ -12,20 +12,12 @@ class FizzBuzz {
 
         while(i <= 100) {
 
-        //for (int i = 1; i < 100; i++) {
-            /**
-             * 条件语句在for后面的括号里，括号内条件依次判断？
-             * The conditional statement is placed within the parentheses after
-             * the "for" keyword. The conditions within the parentheses are
-             * evaluated one by one.
-             */
-
-            // Find out which numbers divide i.
             i = DoFizzBuzz(i);
         }
     }
 
     private static int DoFizzBuzz(int i) {
+        // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
         //boolean 可能是这种比较必须添加的？
