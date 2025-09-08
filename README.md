@@ -72,7 +72,7 @@ Formally as a coding task, let `i` be an integer greater than zero and output th
 * If `i` is divisible by 3 and 5, print the string `Fizz Buzz` (note the space)
 * Otherwise, print the value of `i`
 
-- [ ] Try a short game of Fizz Buzz with your team now.
+- [x] Try a short game of Fizz Buzz with your team now.
 
 ---
 
@@ -204,7 +204,7 @@ That's your first big IntelliJ trick! There are lots more.
 
 Now that you've made your first edits to your code, you should ask git to save these changes for you.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
+- [x] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
   modified `FizzBuzz.java` (and possibly this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
@@ -253,12 +253,12 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [x] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
 
-- [ ] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
+- [x] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
   autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
 - [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method does _not_
   appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
@@ -267,16 +267,16 @@ your extracted helper method).
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
-- [ ] In your main method in `Main.java`, try making a call to your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
+- [x] In your main method in `Main.java`, try making a call to your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
 
 You'll see that IntelliJ flags that you are trying to access something that is private. Unlike Python,
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
 error and not just a warning).
 
-- [ ] Hover over the error; IntelliJ will suggest some fixes.
-- [ ] Click `More actions...` and you'll see a list of the various possible access modifiers.
+- [x] Hover over the error; IntelliJ will suggest some fixes.
+- [x] Click `More actions...` and you'll see a list of the various possible access modifiers.
   These will be explained in more detail in your readings, but for now we can just make the method public.
-- [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
+- [x] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
   what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
